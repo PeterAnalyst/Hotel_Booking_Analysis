@@ -1,2 +1,2 @@
-# Hotel_Booking_Analysis
+# Hotel Booking Analysis
 This project analyzes hotel booking data to uncover key trends.
