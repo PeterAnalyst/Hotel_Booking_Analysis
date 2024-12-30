@@ -34,7 +34,7 @@ This dashboard focuses on analyzing these key attributes:
 * Created new columns to enhance analysis:
    * Guest Type: Categorized bookings based on guest count:
     ``` 
-  =IF(AND(no_of_adult=1,no_of_children=0),"Solo     Travellers",IF(AND(no_of_adult=2,no_of_children=0),"Couples",IF(AND(no_of_adult>=1,no_of_children>=1),"Families",IF(AND(no_of_adult>2,no_of_children>=0),"Group","Other"))))
+  =IF(AND(no_of_adult=1,no_of_children=0),"SoloTravellers",IF(AND(no_of_adult=2,no_of_children=0),"Couples",IF(AND(no_of_adult>=1,no_of_children>=1),"Families",IF(AND(no_of_adult>2,no_of_children>=0),"Group","Other"))))
     ```
 
  * Lead Time Category: Grouped lead times into meaningful ranges for analysis:
